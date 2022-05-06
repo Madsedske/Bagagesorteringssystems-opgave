@@ -36,7 +36,7 @@ namespace Bagagesorteringssystems_opgave
                         baggageQueue.Enqueue(baggageSAS);
                         baggageNum++;
                     }
-                }
+                } 
                 else if (baggageQueue.Count == 50)
                     Debug.WriteLine("Skrank venter..");
                 Thread.Sleep(1000);
